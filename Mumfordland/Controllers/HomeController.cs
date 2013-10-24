@@ -10,21 +10,21 @@ namespace Mumfordland.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
+            ViewBag.Message = "If you want to know what's up with me, here you go.";
 
             return View();
         }
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your app description page.";
+            ViewBag.Message = "mumfordland is my site, and I'm going to fill it with my stuff.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Track me along with the NSA.";
 
             return View();
         }
