@@ -309,6 +309,11 @@ article {
     width: 70%;
 }
 
+.subtitle {
+    font-size: .9em;
+    opacity: 0.7;
+}
+
 aside {
     float: right;
     width: 25%;
