@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace Mumfordland.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : BaseDocumentStoreController
     {
         public ActionResult Index()
         {
