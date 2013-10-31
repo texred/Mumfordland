@@ -22,7 +22,7 @@
     <article>
         <header><h1>@article.Title</h1></header>
         <div class="subtitle">@article.PublicationDate.ToShortDateString()</div>
-        @Html.Raw(article.Body)
+        @TextileHelper.TextileToHtml(article.Body)
     </article>
 }
 

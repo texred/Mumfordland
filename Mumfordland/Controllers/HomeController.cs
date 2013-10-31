@@ -23,7 +23,7 @@ namespace Mumfordland.Controllers
                         Id = Guid.NewGuid().ToString(),
                         Title = "First test article",
                         PublicationDate = DateTime.Now.AddDays(-1d),
-                        Body = "Here is the first test article.",
+                        Body = "Here is the first test article.\r\n\r\n* Testing lists\r\n* More items",
                         Summary = "Here is the first test article.",
                         Author = "Dave Hanlon",
                     },
