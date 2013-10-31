@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Textile.NET</id>
+    <version>1.3</version>
+    <title>Textile.NET</title>
+    <authors>L.A.B.Soft</authors>
+    <owners>L.A.B.Soft</owners>
+    <licenseUrl>http://textilenet.codeplex.com/license</licenseUrl>
+    <projectUrl>http://textilenet.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Textile.NET is, surprisingly, a textile formatter for .NET projects. Textile is a human web text generator (http://www.textism.com/tools/textile/) that is useful for rapid web writings such as Wiki syntax or blog articles. From a simple and intuitive syntax it creates well formed HTML with advanced formatting features, while also allowing the user to customize the output.</description>
+    <summary>Textile.NET is, surprisingly, a textile formatter for .NET projects. Textile is a human web text generator (http://www.textism.com/tools/textile/) that is useful for rapid web writings such as Wiki syntax or blog articles. From a simple and intuitive syntax it creates well formed HTML with advanced formatting features, while also allowing the user to customize the output.</summary>
+    <releaseNotes />
+    <copyright>Copyright © L.A.B.Soft 2005</copyright>
+    <language />
+    <tags>Textile Markup</tags>
+  </metadata>
+</package>
