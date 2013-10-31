@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Mumfordland.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -10,9 +11,35 @@ namespace Mumfordland.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "If you want to know what's up with me, here you go.";
+            var frontPage = new FrontPageModel
+            {
+                Id = Guid.NewGuid().ToString(),
+                Headline = "This is a test headline.",
+                Details = "Testing out the new model that supports the home page.",
+                RecentArticles = new List<ArticleModel>
+                {
+                    new ArticleModel
+                    {
+                        Id = Guid.NewGuid().ToString(),
+                        Title = "First test article",
+                        PublicationDate = DateTime.Now.AddDays(-1d),
+                        Body = "<p>Here is the first test article.</p>",
+                        Summary = "<p>Here is the first test article.</p>",
+                        Author = "Dave Hanlon",
+                    },
+                    new ArticleModel
+                    {
+                        Id = Guid.NewGuid().ToString(),
+                        Title = "Second test article",
+                        PublicationDate = DateTime.Now.AddHours(-1d),
+                        Body = "<p>Here is the second test article.</p>",
+                        Summary = "<p>Here is the second test article.</p>",
+                        Author = "Dave Hanlon",
+                    },
+                },
+            };
 
-            return View();
+            return View(frontPage);
         }
 
         public ActionResult About()
